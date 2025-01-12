@@ -16,17 +16,9 @@
     margin: 0;
     padding: 0;
   }
-  .logo {
-    width: auto;
-  }
-  
-  .wordMark {
-    color: black;
-    display: inline-block;
-  }
   
   .header-right {
-    float: right;
+    float: right; 
   }
   
   .btn-primary {
@@ -37,5 +29,23 @@
 
   ion-icon {
     color: white;
+  }
+
+  .views {
+    color: white;
+  }
+
+  .row-1 row-2 row-3{
     
   }
+
+  .col-3 {
+    background-color: white;
+  }
+
+  .img-thumbnail {
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+  }
+  
