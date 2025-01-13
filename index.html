@@ -15,7 +15,7 @@
 
     </head>
     <body>
-     <div class="container"> 
+     <div class="container-fluid"> 
         <!-- Nav Bar-->
         <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
@@ -36,15 +36,17 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <h5 class="modal-title" id="exampleModalLabel">Create a new post</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            ...
+            <div class="input-group">
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Publish</button>
+            <button type="button" class="btn btn-primary">Close</button>
           </div>
         </div>
       </div>
@@ -58,6 +60,7 @@
               <li><a class="dropdown-item" href="#">Profile</a></li>
               <li><a class="dropdown-item" href="#">Accessibility</a></li>
               <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
             </ul>
           </div>
     </div> 
@@ -65,18 +68,18 @@
     </nav>            
 </div>
 <div class="views">
-    <ion-icon name="grid-outline"></ion-icon>
+    <ion-icon class= "grid-icon" name="grid-outline"></ion-icon>
 </div>
 <div class="row">
     <div class="col-3"></div>
     <div class="col-2">
-        <img src="https://picsum.photos/id/3/250" class="img-thumbnail" alt="...">
+        <img src="https://picsum.photos/id/3/1080" class="img-thumbnail" alt="...">
     </div>
     <div class="col-2">
-        <img src="https://picsum.photos/id/19/250" class="img-thumbnail" alt="...">
+        <img src="https://picsum.photos/id/19/1080" class="img-thumbnail" alt="...">
     </div>
     <div class="col-2">
-        <img src="https://picsum.photos/id/62/250" class="img-thumbnail" alt="...">
+        <img src="https://picsum.photos/id/62/1080" class="img-thumbnail" alt="...">
     </div>
     <div class="col-3"></div>
 </div> 
@@ -85,13 +88,13 @@
         <p></p>
     </div>
     <div class="col-2">
-        <img src="https://picsum.photos/id/28/250" class="img-thumbnail" alt="...">
+        <img src="https://picsum.photos/id/28/1080" class="img-thumbnail" alt="...">
     </div>
     <div class="col-2">
-        <img src="https://picsum.photos/id/39/250" class="img-thumbnail" alt="...">
+        <img src="https://picsum.photos/id/39/1080" class="img-thumbnail" alt="...">
     </div>
     <div class="col-2">
-        <img src="https://picsum.photos/id/52/250" class="img-thumbnail" alt="...">
+        <img src="https://picsum.photos/id/52/1080" class="img-thumbnail" alt="...">
     </div>
     <div class="col-3">
         <p></p>
@@ -102,13 +105,13 @@
         <p></p>
     </div>
     <div class="col-2">
-        <img src="https://picsum.photos/id/84/250" class="img-thumbnail" alt="...">
+        <img src="https://picsum.photos/id/84/1080" class="img-thumbnail" alt="...">
     </div>
     <div class="col-2">
-        <img src="https://picsum.photos/id/32/250" class="img-thumbnail" alt="...">
+        <img src="https://picsum.photos/id/32/1080" class="img-thumbnail" alt="...">
     </div>
     <div class="col-2">
-        <img src="https://picsum.photos/id/12/250" class="img-thumbnail" alt="...">
+        <img src="https://picsum.photos/id/12/1080" class="img-thumbnail" alt="...">
     </div>
     <div class="col-3">
         <p></p>
@@ -117,6 +120,10 @@
 
 
 
+
+<!-- Link to Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
