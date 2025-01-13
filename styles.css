@@ -21,11 +21,12 @@
   .header-right {
     position: absolute;
     right: 0; 
+    margin-right: 80px;
   }
 
-  .btn-primary {
+  #create {
     position:absolute;
-    right: 70px;
+    right: 80px;
     margin: 10px;
     width: 200px;
   }
@@ -67,4 +68,20 @@
   .img-thumbnail {
 
   }
-  
+
+  .modal-buttons{
+    display: flex;
+    padding: 15px;
+  }
+
+  .first .second {
+    flex: 1;
+  }
+
+  .second {
+    margin: 0px 15px;
+  }
+
+  .logout{
+    color:red;
+  }

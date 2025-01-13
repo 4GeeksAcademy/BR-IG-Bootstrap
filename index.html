@@ -28,7 +28,7 @@
             </div>
     <div class="header-right">
              <!-- Button trigger modal -->
-             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+             <button type="button" class="btn btn-primary" id="create" data-bs-toggle="modal" data-bs-target="#exampleModal">
              Create a new post
            </button>
            <!-- Modal -->
@@ -40,13 +40,26 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
+            <p>Caption:</p>
             <div class="input-group">
-                <textarea class="form-control" aria-label="With textarea"></textarea>
+                <textarea class="form-control" aria-label="With textarea" placeholder="Add the caption of your post here"></textarea>
               </div>
           </div>
+        <div class="modal-buttons">
+          <div class="camera">
+            <button type="button" class="btn btn-secondary first">
+                <ion-icon name="camera"></ion-icon>
+            </button>
+          </div>
+          <div class="location">
+            <button type="button" class="btn btn-secondary second" >
+                <ion-icon name="pin"></ion-icon>
+            </button>
+          </div>
+        </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Publish</button>
-            <button type="button" class="btn btn-primary">Close</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary publish" >Publish</button>
           </div>
         </div>
       </div>
@@ -60,7 +73,7 @@
               <li><a class="dropdown-item" href="#">Profile</a></li>
               <li><a class="dropdown-item" href="#">Accessibility</a></li>
               <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-              <li><a class="dropdown-item" href="#">Logout</a></li>
+              <li><a class="dropdown-item logout" href="#">Logout</a></li>
             </ul>
           </div>
     </div> 
