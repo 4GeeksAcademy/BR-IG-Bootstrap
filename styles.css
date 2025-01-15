@@ -3,8 +3,6 @@
     max-height: 100%;
   }
   
-  .container-fluid {
-  }
   
   .dropdown {
     margin: 10px;
@@ -41,7 +39,7 @@
     display: inline-block;
   }
 
-  ion-icon {
+  ..on-icon {
     color: white;
   }
 
@@ -57,7 +55,8 @@
     place-items: center; 
   }
 
-  .row-1 row-2 row-3{
+  .row {
+    display: grid;
     
   }
 
@@ -66,7 +65,7 @@
   }
 
   .img-thumbnail {
-
+      
   }
 
   .modal-buttons{
@@ -84,4 +83,12 @@
 
   .logout{
     color:red;
+  }
+
+
+  .primary-link{
+     color: purple;
+  }
+  .icon-right {
+    padding: 30px;
   }
