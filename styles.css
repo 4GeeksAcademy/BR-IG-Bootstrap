@@ -55,10 +55,7 @@
     place-items: center; 
   }
 
-  .row {
-    
-    
-  }
+ 
 
   .col-3 {
     background-color: white;
@@ -89,8 +86,8 @@
     padding: 30px;
   }
 
-  .views{
+  /* .views{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+  } */
